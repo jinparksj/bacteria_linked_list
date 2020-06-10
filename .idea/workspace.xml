@@ -11,10 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9bb08648-cefd-47c9-8453-a8fc96f08255" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/example.c" beforeDir="false" afterPath="$PROJECT_DIR$/example/example1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bacteriaData.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/bacteriaData.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bacteria_linked_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/bacteria_linked_list.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bacteria_linked_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/bacteria_linked_list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
       <workItem from="1591632667238" duration="7581000" />
       <workItem from="1591719166207" duration="5027000" />
       <workItem from="1591736474137" duration="2400000" />
-      <workItem from="1591805799759" duration="5361000" />
+      <workItem from="1591805799759" duration="7869000" />
     </task>
     <servers />
   </component>
