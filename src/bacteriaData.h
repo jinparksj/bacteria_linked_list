@@ -1,7 +1,3 @@
-//
-// Created by gf on 6/8/20.
-//
-
 #ifndef BACTERIA_LINKED_LIST_BACTERIADATA_H
 #define BACTERIA_LINKED_LIST_BACTERIADATA_H
 
