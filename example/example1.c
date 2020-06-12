@@ -68,7 +68,7 @@ int main(void) {
                 break;
             case SEARCH_NAME:
                 data = ScanData("Search", DATA_NAME);
-                if (search(&llist, &data, DataNameCmp) != NULL) {
+                if (Search(&llist, &data, DataNameCmp) != NULL) {
                     PrintCurrent(&llist);
                 }
                 else {
@@ -77,7 +77,7 @@ int main(void) {
                 break;
             case SEARCH_PID:
                 data = ScanData("Search", DATA_PID);
-                if (search(&llist, &data, DataPIDCmp) != NULL) {
+                if (Search(&llist, &data, DataPIDCmp) != NULL) {
                     PrintCurrent(&llist);
                 }
                 else {

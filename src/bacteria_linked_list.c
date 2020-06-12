@@ -18,7 +18,7 @@ void Initialize(LList *llist) {
     llist -> current = NULL;
 }
 
-Node *search(LList *llist, const Bacteria *comp_data, int compare(const Bacteria *data1, const Bacteria *data2)) {
+Node *Search(LList *llist, const Bacteria *comp_data, int compare(const Bacteria *data1, const Bacteria *data2)) {
     Node *ptr = llist -> head;
 
     while (ptr != NULL) {

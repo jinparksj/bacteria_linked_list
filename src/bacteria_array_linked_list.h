@@ -1,25 +1,28 @@
-#ifndef BACTERIA_LINKED_LIST_BACTERIA_LINKED_LIST_H
-#define BACTERIA_LINKED_LIST_BACTERIA_LINKED_LIST_H
+#ifndef BACTERIA_LINKED_LIST_BACTERIA_ARRAY_LINKED_LIST_H
+#define BACTERIA_LINKED_LIST_BACTERIA_ARRAY_LINKED_LIST_H
 
 #include "bacteriaData.h"
 
-#define DATA_NAME       1
-#define DATA_AST        2
-#define DATA_PID        4
-#define DATA_SNUMBER    8
+#define Null -1
 
-typedef struct __node {
+typedef int Index;
+
+typedef struct {
     Bacteria data;
-    struct __node *next;
+    Index next;
+    Index Dnext;
 } Node;
 
 typedef struct {
-    Node *head;
-    Node *current;
+    Node *n;
+    Index head;
+    Index max;
+    Index deleted;
+    Index current;
 } LList;
 
-void Initialize(LList *llist);
-Node *Search(LList *llist, const Bacteria *comp_data, int compare(const Bacteria *data1, const Bacteria *data2));
+void Initialize(LList *llist, int size);
+Index Search(LList *llist, const Bacteria *data, int compare(const Bacteria *data1, const Bacteria *data2));
 void InsertFront(LList *llist, const Bacteria *data);
 void InsertRear(LList *llist, const Bacteria *data);
 void PopFront(LList *llist);
@@ -37,4 +40,6 @@ int DataASTCmp(const Bacteria *data1, const Bacteria *data2);
 int DataSNumberCmp(const Bacteria *data1, const Bacteria *data2);
 
 
-#endif //BACTERIA_LINKED_LIST_BACTERIA_LINKED_LIST_H
+
+
+#endif //BACTERIA_LINKED_LIST_BACTERIA_ARRAY_LINKED_LIST_H
