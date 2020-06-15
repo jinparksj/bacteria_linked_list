@@ -4,6 +4,10 @@
 #include "bacteriaData.h"
 
 #define Null -1
+#define DATA_NAME       1
+#define DATA_AST        2
+#define DATA_PID        4
+#define DATA_SNUMBER    8
 
 typedef int Index;
 

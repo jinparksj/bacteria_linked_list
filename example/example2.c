@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "../src/bacteriaData.h"
-#include "../src/bacteria_linked_list.h"
-#include "../src/bacteria_linked_list.c"
+#include "../src/bacteria_array_linked_list.h"
+#include "../src/bacteria_array_linked_list.c"
+#define ARRAY_SIZE 30
+
 
 typedef enum {
     TERMINATE,
@@ -26,7 +28,6 @@ Menu SelectMenu(void) {
             "Remove at Current Node", "Search by Name", "Search by PID", "Search by AST", "Search by Sample Number",
             "Print Current Node", "Print All Nodes", "Clear All Nodes"
     };
-
     do {
         for (i = TERMINATE; i < CLEAR; i++) {
             printf("(%2d) %-18.18s  ", i+1, menu_description[i]);
@@ -42,7 +43,7 @@ Menu SelectMenu(void) {
 int main(void) {
     Menu menu;
     LList llist;
-    Initialize(&llist);
+    Initialize(&llist, ARRAY_SIZE);
 
     while (1) {
         Bacteria data;
@@ -116,7 +117,4 @@ int main(void) {
         }
     }
     Terminate(&llist);
-
-    return 0;
 }
-

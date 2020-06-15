@@ -25,7 +25,7 @@ void InsertRear(LList *llist, const Bacteria *data);
 void PopFront(LList *llist);
 void PopBack(LList *llist);
 void RemoveCurrent(LList *llist);
-void Clear(LList *list);
+void Clear(LList *llist);
 void PrintBacteria(const Bacteria *data);
 void PrintCurrent(const LList *llist);
 void Print(const LList *llist);
