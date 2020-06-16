@@ -9,8 +9,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9bb08648-cefd-47c9-8453-a8fc96f08255" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="9bb08648-cefd-47c9-8453-a8fc96f08255" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/example2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/example1.c" beforeDir="false" afterPath="$PROJECT_DIR$/example/example1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bacteria_array_linked_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/bacteria_array_linked_list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bacteria_array_linked_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/bacteria_array_linked_list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bacteria_linked_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/bacteria_linked_list.h" afterDir="false" />
+    </list>
+>>>>>>> 7125aea505a0f6495b8b3977c53010ceecee6740
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +35,18 @@
   </component>
   <component name="ProjectId" id="1d2ohBq3ycu9QDv357jfxgFUpCU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -36,18 +55,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,24 +71,44 @@
       <workItem from="1591736474137" duration="2400000" />
       <workItem from="1591805799759" duration="8619000" />
       <workItem from="1591829335700" duration="384000" />
+<<<<<<< HEAD
       <workItem from="1591982744080" duration="3743000" />
+=======
+      <workItem from="1591982744080" duration="3592000" />
+      <workItem from="1592093022042" duration="2871000" />
+      <workItem from="1592114027491" duration="2423000" />
+      <workItem from="1592172249092" duration="3726000" />
+>>>>>>> 7125aea505a0f6495b8b3977c53010ceecee6740
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1100" y="297" key="FileChooserDialogImpl" timestamp="1592172501191">
+      <screen x="65" y="24" width="2495" height="1056" />
+    </state>
+    <state x="1100" y="297" key="FileChooserDialogImpl/65.24.2495.1056/2560.0.1920.1080@65.24.2495.1056" timestamp="1592172501191" />
+    <state x="806" y="174" width="1538" height="728" key="SettingsEditor" timestamp="1592172502427">
+      <screen x="65" y="24" width="2495" height="1056" />
+    </state>
+    <state x="806" y="174" width="1538" height="728" key="SettingsEditor/65.24.2495.1056/2560.0.1920.1080@65.24.2495.1056" timestamp="1592172502427" />
+    <state x="975" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1592094446200">
+      <screen x="0" y="24" width="2560" height="1056" />
+    </state>
+    <state x="975" y="236" width="672" height="678" key="search.everywhere.popup/0.24.2560.1056/0.1080.1920.1080@0.24.2560.1056" timestamp="1592094446200" />
   </component>
 </project>

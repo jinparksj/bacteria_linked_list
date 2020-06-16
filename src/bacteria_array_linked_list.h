@@ -4,21 +4,25 @@
 #include "bacteriaData.h"
 
 #define Null -1
+#define DATA_NAME       1
+#define DATA_AST        2
+#define DATA_PID        4
+#define DATA_SNUMBER    8
 
 typedef int Index;
 
 typedef struct {
-    Bacteria data;
-    Index next;
-    Index Dnext;
+    Bacteria data;  //data
+    Index next;     //next node
+    Index Dnext;    //prelist's next node
 } Node;
 
 typedef struct {
-    Node *n;
-    Index head;
-    Index max;
-    Index deleted;
-    Index current;
+    Node *n;        //list array
+    Index head;     //head node
+    Index max;      //tail node
+    Index deleted;  //prelist head node
+    Index current;  //selected node
 } LList;
 
 void Initialize(LList *llist, int size);
